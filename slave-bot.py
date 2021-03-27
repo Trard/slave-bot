@@ -10,6 +10,7 @@ with open('config.json', "r") as f:
     file_content = f.read()
     config = json.loads(file_content)
 
+    
 def slaves(slave_method, id, get = ""):
     sleep(config['timing'])
     if get:
