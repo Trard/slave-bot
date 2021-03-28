@@ -1,9 +1,10 @@
 {
     "auth": "",
     "timing": 2,
-    "InvisibleSlaves": true,
-    "buyFetters": false,
+    "InvisibleSlaves": false,
+    "buyFetters": true,
+    "checkPrice": false,
+    "maxSlavePrice": 40000,
     "checkBalance": false,
-    "maxSlavePrice": 100000,
-    "minBalance": 100000
+    "minBalance": 10
 }
