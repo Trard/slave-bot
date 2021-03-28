@@ -3,7 +3,7 @@
     "timing": 2,
     "InvisibleSlaves": false,
     "buyFetters": true,
-    "checkPrice": false,
+    "checkSlavePrice": false,
     "maxSlavePrice": 40000,
     "checkBalance": false,
     "minBalance": 10
