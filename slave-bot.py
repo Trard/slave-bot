@@ -63,9 +63,9 @@ def main():
             if config['InvisibleSlaves']:
                 id = -id
 
-            slave = slaves("user", id, "get")
+            slaveprice = slaves("user", id, "get")['price'] if config['checkSlavePrice'] else 0
 
-            if slave['price'] <= config['maxSlavePrice']:
+            if slaveprice <= config['maxSlavePrice']:
                 slaves("buySlave", id)
                 slaves("jobSlave", id)
                 if config["buyFetters"]:
